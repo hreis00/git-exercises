@@ -17,6 +17,7 @@ To use the application, run the following command in the terminal:
 Replace <name> with the name you want to greet. If you provide the wrong number of arguments, it will display usage instructions.
 
 `python app.py Hugo` ✅ _`Hello Hugo!`_
+
 `python app.py Hugo Reis` ❌ _`Usage: python app.py <name>`_
 
 ### Task 08 - Update documentation
@@ -25,12 +26,14 @@ Replace <name> with the name you want to greet. If you provide the wrong number 
 
 To use the application, run the following command in the terminal:
 
-Navigate to source directory and `python app.py [arg0]`;
-If in base directory `python source/app.py [arg0]`;
+Navigate to source directory and `python app.py [arg0]`
+
+If in base directory `python source/app.py [arg0]`
 
 Replace [arg0] with the name you want to greet. If no argument is provided, it will show usage instructions.
 
 `python app.py Hugo Reis` ✅ _`Hello Reis`_
+
 `python app.py Hugo` ❌ _`Usage: python app.py [arg0]`_
 
 -- Made by Hugo Reis
